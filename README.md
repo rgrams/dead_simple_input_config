@@ -1,7 +1,7 @@
 # Dead-Simple Input Config
 A dead-simple way to handle configurable input at runtime with Defold
 
-This is probably not the most performant way to handle configurable input, but it's very simple to setup and use and should be totally fine for most projects.
+This is probably not the most performant way to handle configurable input, but it's very simple to setup and use and should be totally fine for most projects. Feel free to check the profiler if you're curious; it's not bad unless you have a lot of scripts handling input and you're pressing a lot of keys at once. 
 
 _NOTE: The project in this repo is not a nice example at the moment, but you can look at main/example/example.script for a simple example of usage._
 
