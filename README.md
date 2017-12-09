@@ -52,7 +52,7 @@ On the first line of your `on_input` functions, add:
 ```lua
 action_id = input.process(action_id)
 ```
-This converts the incoming `action_id` to match your bound inputs. It returns `hash("unbound input")` for any input that it not bound (except mouse movement input, which keeps its `action_id` of `nil`).
+This converts the incoming `action_id` to match your bound inputs. It returns `hash("unbound input")` for any input that is not bound (except mouse movement input, which keeps its `action_id` of `nil`).
 
 ### input.get_bindings_table()
 Use this if you need to check what inputs are currently bound.
