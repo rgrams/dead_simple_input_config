@@ -1,5 +1,5 @@
 
-local input = require "simple input config.input"
+local input = require "simple_input_config.input"
 local rendercam = require "rendercam.rendercam"
 
 function init(self)
